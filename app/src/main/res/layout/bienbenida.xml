@@ -6,17 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".Bienbenida">
 
-    <TextView
-        android:layout_width="335dp"
-        android:layout_height="0dp"
-        android:layout_marginBottom="512dp"
-        android:text="@string/nombres"
-
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/button_bienbenida"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -29,16 +18,17 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/bienbenida" />
+
     <TextView
         android:layout_width="335dp"
-        android:layout_height="0dp"
-        android:layout_marginBottom="512dp"
-        android:text="@string/nombres"
+        android:layout_height="122dp"
 
+        android:text="@string/nombres"
         android:textSize="20sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/button_bienbenida"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.223"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
